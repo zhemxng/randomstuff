@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>ZM Japan Trip 2019</title>
+</head>
+
+<body style="background-color:#f9b245;">
+  <h1>Japan Trip 2019</h1>
+  <img src="C:\Users\zhemi\OneDrive\Desktop\Others\Web Development\HTML Personal site\Images\DSC02023.jpg" alt="Kobe">
+  <p>Kobe Port</p>
+  <img src="C:\Users\zhemi\OneDrive\Desktop\Others\Web Development\HTML Personal site\Images\DSC00581.jpg" alt="Akazaka">
+  <p>Somewhere in 赤坂</p>
+  <hr>
+  <h3><strong>Japan Itinerary</strong></h3>
+  <table border="1">
+    <!--To have cells space each other out, cellspacing="" can be used where number
+    used inside "" is equivilant to pixels or percentage value between 2 cells-->
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>Location</th>
+        <th>description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Day 1</td>
+        <td>Kobe Port</td>
+        <td>Sightseeing at Kobe Port, Ate Kobe Beef</td>
+      </tr>
+      <tr>
+        <td>Day 2</td>
+        <td>Transit from Kobe to Tokyo via Shinkansen</td>
+        <td>Arrived at Tokyo Station in the evening, checked into hotel</td>
+      </tr>
+      <tr>
+        <td>Day 3</td>
+        <td>Tokyo</td>
+        <td>Went to Akazaka, saw the Tokyo Tower</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr class="blank_row">
+        <td colspan="3">&nbsp;</td>
+        <!--To insert blank row, use class="blank_row"
+      inside td; use colspan attribute, which is to specify how many columns to blank out.
+    number referes to number of columns to blank and &nbsp; is used to blank out the cell-->
+      </tr>
+    </tfoot>
+  </table>
+<br>
+<form action="mailto:ryuuxzm@yahoo.co.jp" method="post" enctype="text/plain">
+  <label><strong>Sign up to my web page to see more post about Japan</strong></label>
+  <input type="checkbox" name="" value=""><br>
+  <label size="30">Any Recommendations? Submit them here!~</label><br>
+  <textarea name="name" rows="10" cols="50"></textarea><br>
+  <label>Your Name:</label>
+  <input type="text" name="userName" value="  "><br>
+  <input type="submit" name="" value="Submit">
+</form>
+
+</body>
+
+</html>
